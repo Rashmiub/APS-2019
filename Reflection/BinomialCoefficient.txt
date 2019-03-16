@@ -1,0 +1,7 @@
+Dynamic Programming approach for computing Binomial Coefficient:
+-> To compute C(n,k) , in this technique we store the binomial coefficients in a table of n+1 rows and k+1 columns
+-> The efficiency is O(n*k)
+-> The recursive version of this algorithms, 2 recursive calls are involved and the space neede to store thses resultss is 
+   (2^n-1)*8 
+-> Dynamic programming approach using 1-d array reduces the time complexity to O(k).
+-> Thus we can use 1-d array to directly get the binomial coefficient of nCk, and 2-d array to get the intermediate values also.  
