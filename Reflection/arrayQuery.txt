@@ -1,1 +1,18 @@
+Algorithms for array query problem:
+1) Lookup table technique
+    -> The memory required is more as it uses 2-D array representation. i.e O(n*n)
+    -> The time complexity is O(n*n)
+    -> Query time is faster i.e O(1)
 
+2) Square root decomposition:
+    -> If 'n' is the size of the array, it divides the array into sqrt(n) blocks and makes the searching faster than the 2-d lookup table.
+    -> The space required is n as it uses 1-d array.
+   
+3) Segment Tree: 
+    -> This technique is used when there are more number of queries and the array elements are not changing.
+    -> Each node in a tree represents a interval or segment.
+    -> Once the tree is built it's structure cannot be modified,if any one value changes the tree is rebuilt.
+    -> It is built using recursion, bottom-up approach.
+ 
+4) Kadane's Algorithm:
+    -> It is a dynamic programming algorithm used to print the sub array with maximum sum
